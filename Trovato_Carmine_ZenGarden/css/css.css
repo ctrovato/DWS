@@ -1,0 +1,20 @@
+h1 {
+	color: #ff9600;
+	background-color: DodgerBlue;
+	font-size: 3em;
+	font-family:  Arial, Helvetica, sans-serif;
+	padding: 5px; 
+	margin: 0;
+}
+
+h2 {
+	color: DodgerBlue;
+	font-weight: normal;
+	border-bottom: 1px solid #ff9600;
+}
+
+
+p {
+	color: DodgerBlue;
+	line-height: 1.5;
+}
