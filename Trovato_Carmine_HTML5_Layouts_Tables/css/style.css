@@ -110,11 +110,8 @@ nav {
         width: auto;
         height: auto;
         margin: 0px 10px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        border-left: 2px darkslategray solid;
-        border-bottom: 2px darkslategray solid;
-        border-right: 2px darkslategray solid;
+        border-radius: 5px;
+		border: 2px darkslategray solid;
         text-align: left;
         padding: 0px;
         color: #BF3030;
