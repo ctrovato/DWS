@@ -120,7 +120,79 @@ h3{
         height: auto;
 		font-size: 1em;
 		background-size: contain;
-
 }
+
+
+blockquote {
+    color: darkslategray;
+    background: white;
+    line-height: 1.2em;
+    word-spacing: 2px;
+}
+
+.about {
+        margin: 1%;
+        padding: 2px 2px 0px;
+      	text-align: center;
+        box-shadow: 5px 5px 5px gray;
+        font-family: helvetica;
+        color: white;
+        background: url("../images/mask.png")  no-repeat,
+-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(5,194,252,1)), color-stop(51%,rgba(110,209,239,1)), color-stop(100%,rgba(6,120,214,1)));
+		background-size: contain;
+        width: auto;
+        height: auto;
+}
+
+.temp {
+
+		color: darkslategray;
+        text-align: left;
+    	padding: 0px 0px 0px 0px;
+        background: white;
+        margin: 0px;
+        line-height: 1.2em;
+        word-spacing: 2px; 
+}
+
+
+nav {
+        
+        width: auto;
+        height: auto;
+        margin: 0px 10px;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        color: #BF3030;
+        background-color: white;
+}
+
+nav li {
+        margin: auto auto;
+        padding: 5px 5px;
+        display: inline-block;
+}
+
+li a {
+        border-radius: 2px;
+        padding: 5px 0px 0px 0px;
+        text-align: center;
+        display: block;
+        width: 100px;
+        height: 25px;
+        background-color: #05C2FC;
+}
+
+p, ul {
+        color: darkslategray;
+        text-align: justify;
+        list-style: square;
+    	padding: 6px 0px 0px 0px;
+        background: white;
+        margin: 8px;
+        line-height: 1.2em;
+        word-spacing: 2px;
+}
+
 
 
