@@ -184,6 +184,11 @@ ol {
         list-style-type:upper-roman;
 }
 
+ul {
+	    text-align: center;
+}
+	
+
 
 
 li a {
@@ -196,11 +201,11 @@ li a {
         background-color: #05C2FC;
 }
 
-p, ul {
+p,  {
         color: darkslategray;
-        text-align: justify;
+        text-align: left;
         list-style: square;
-            padding: 6px 0px 0px 0px;
+    	padding: 6px 6px 6px 6px;
         background: white;
         margin: 8px;
         line-height: 1.2em;
