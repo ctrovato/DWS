@@ -75,6 +75,10 @@ background:  url("../images/tile-blue.gif") repeat center fixed;
         text-transform: uppercase;
         font-family: helvetica;
         color: 0678D6;
+        background: url("../images/mask2
+        .png")  no-repeat;
+        background-size: contain;
+
 }
 
 input {
@@ -103,15 +107,14 @@ h2 {
         text-indent: 35px;
         font-family: 'Alegreya Sans', sans-serif;;
         color: white;
-        background: url("../images/mask.png")  no-repeat,
--webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(5,194,252,1)), color-stop(51%,rgba(110,209,239,1)), color-stop(100%,rgba(6,120,214,1)));
-                background-size: contain;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(5,194,252,1)), color-stop(51%,rgba(110,209,239,1)), color-stop(100%,rgba(6,120,214,1)));
+        background-size: contain;
         width: auto;
         height: auto;
 }
 
 h3{
-                margin: 0;
+        margin: 0;
         padding: 0px 0px 0px 0px;
         text-transform: uppercase;
         text-indent: 5px;
@@ -119,8 +122,8 @@ h3{
         color: #05C2FC;
         width: auto;
         height: auto;
-                font-size: 1em;
-                background-size: contain;
+        font-size: 1em;
+        background-size: contain;
 }
 
 /* _________________BLOCKQUOTE_____________ */
@@ -136,22 +139,21 @@ blockquote {
 .about {
         margin: 1%;
         padding: 2px 2px 0px;
-              text-align: center;
+        text-align: center;
         box-shadow: 5px 5px 5px gray;
         font-family: helvetica;
         color: white;
-        background: url("../images/mask.png")  no-repeat,
--webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(5,194,252,1)), color-stop(51%,rgba(110,209,239,1)), color-stop(100%,rgba(6,120,214,1)));
-                background-size: contain;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(5,194,252,1)), color-stop(51%,rgba(110,209,239,1)), color-stop(100%,rgba(6,120,214,1)));
+        background-size: contain;
         width: auto;
         height: auto;
 }
 
 .temp {
 
-                color: darkslategray;
+        color: darkslategray;
         text-align: left;
-            padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
         background: white;
         margin: 0px;
         line-height: 1.2em;
