@@ -75,8 +75,7 @@ background:  url("../images/tile-blue.gif") repeat center fixed;
         text-transform: uppercase;
         font-family: helvetica;
         color: 0678D6;
-        background: url("../images/mask2
-        .png")  no-repeat;
+        background: url("../images/mask2.png")  no-repeat;
         background-size: contain;
 
 }
